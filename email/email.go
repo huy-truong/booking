@@ -2,6 +2,11 @@ package email
 
 import "fmt"
 
+func init() {
+  fmt.Print("THis my module!!!!!")
+}
+
+
 func Send(content string, to string) {
 	fmt.Printf("Sending to \"%s\"\nContent:\n%s\n", to, content)
 }
