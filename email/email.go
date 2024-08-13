@@ -8,7 +8,8 @@ func init() {
 
 
 func Send(content string, to string) {
-	fmt.Printf("Sending to \"%s\"\nContent:\n%s\n", to, content)
+	fmt.Printf("Sending  to \"%s\"\nContent:\n%s\n", to, content)
+	fmt.Println("Sent !!!")
 }
 
 func Content(title string, name string, nights uint) string {
